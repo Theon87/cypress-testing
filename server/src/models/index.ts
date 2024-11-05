@@ -1,3 +1,3 @@
 import { IQuestion, Question } from './Question.js';
 
-export { IQuestion, Question };
+export { type IQuestion, Question };
