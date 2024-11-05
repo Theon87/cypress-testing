@@ -13,7 +13,7 @@
     "client:dev": "cd client && npm run dev",
     "build": "cd server && npm run build",
     "seed": "cd server && npm run seed",
-    "cypress": "npx cypress open",
+    "cypress": "concurrently \"npm run start:dev\" \"npx cypress open",
     "render-build": "npm install && npm run build"
   },
   "keywords": [],
