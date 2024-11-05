@@ -5,6 +5,6 @@ describe('a button to start the quiz should appear on initial load', () => {
   it('renders', () => {
     cy.mount(<Quiz />)
 
-    cy.get('button').contains('contain', 'Start Quiz')
+    cy.get('button').should('have.text', 'Start Quiz')
   })
 })
