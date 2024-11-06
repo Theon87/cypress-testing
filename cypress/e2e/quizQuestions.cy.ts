@@ -1,5 +1,8 @@
 describe('Quiz Questions', () => {
-  it('should display on screen after Start Quiz button is hit', () => {
-    cy.visit('http://localhost:3000')
+  it('should display a question on screen after the Start Quiz button is hit', () => {
+    cy.visit('http://localhost:3001')
+
+    cy.get('button').click()
+    cy.get('h2').should('exist')
   })
 })
