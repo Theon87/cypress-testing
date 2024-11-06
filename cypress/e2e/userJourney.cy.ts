@@ -1,4 +1,4 @@
-describe('Quiz Questions', () => {
+describe("Quiz Questions", () => {
   it('should display a question on screen after the Start Quiz button is hit', () => {
     cy.visit('http://localhost:3000')
 
