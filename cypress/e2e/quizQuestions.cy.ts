@@ -1,6 +1,6 @@
 describe('Quiz Questions', () => {
 
-  it('should display a card on thes screen if data is retrieved', () => {
+  it('should display a card on the screen if data is retrieved', () => {
     cy.visit('http://localhost:3000')
 
     cy.get('button').click()
