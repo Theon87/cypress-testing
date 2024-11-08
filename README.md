@@ -12,7 +12,7 @@ After cloning the repository, use an npm install. When you have the required pac
 
 Use this app by doing the following;
 
-- Open a terminal and run "npm run start:dev" to start the app in port 3000.
+- Open a terminal and run "npm run start:dev" to start the app in port 3001.
 
 - In a separate terminal in the root, run "npm run test" to start cypress in the command line.
 
@@ -22,7 +22,7 @@ Use this app by doing the following;
 
 ![cypress headless test summary](/assets/cypress%20headless%20test%20-%20summary.png)
 
-Click this link for a video demonstration of the process [https://drive.google.com/file/d/1ZYoymLRliRK-gFi1Ao5faufqBcBYXNq0/view?usp=sharing]
+Click this link for a video demonstration of the process [https://drive.google.com/file/d/1lyRDpuU0pXLFRVZR0CMM8gDV0607FEBC/view?usp=sharing]
 
 ## Credits
 
