@@ -2,9 +2,7 @@
 
 ## Description
 
-This app will demonstrate the utility of cypress as a tool testing your code. It will demonstrate testing a component as well as walk through a user journey to mimic the user experience of using an app.
-
-![you can perform component and e2e testing](/assets/cypress-component-test.png)
+This app will demonstrate the utility of cypress as a tool for testing your code. It will demonstrate testing a component as well as a test that mimics the user experience of using an app by testing a series of clicks through the app. Running tests such as these will make your app more robust and increase the likelyhood of a better user experience. 
 
 ## Installation
 
@@ -14,17 +12,15 @@ After cloning the repository, use an npm install. When you have the required pac
 
 Use this app by doing the following;
 
-- Open a terminal and run "npm run start" to start the app in port 3001.
+- Open a terminal and run "npm run start:dev" to start the app in port 3000.
 
-- In a separate terminal in the root, run "npm run cypress" to start the testing tool.
+- In a separate terminal in the root, run "npm run test" to start cypress in the command line.
 
-- When the cyrpess opens, select component to begin the component tests.
-![component testing option on cypress](/assets/cypress-landing-page.png)
+![cypress headless test start](/assets/cypress%20headless%20test%20-%20start.png)
 
-- Choose the Electron option to begin testing.
-![select electron](/assets/cypress-select-electron.png)
+![cypress headless test 1st test](/assets/cypress%20headless%20test%20-%201st%20test.png)
 
-- After completing the component tests, you can return to the dashboard to run e2e tests.
+![cypress headless test summary](/assets/cypress%20headless%20test%20-%20summary.png)
 
 Click this link for a video demonstration of the process [https://drive.google.com/file/d/1ZYoymLRliRK-gFi1Ao5faufqBcBYXNq0/view?usp=sharing]
 
